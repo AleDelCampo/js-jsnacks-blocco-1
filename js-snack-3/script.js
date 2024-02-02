@@ -6,7 +6,7 @@ for (let i = 0; i < "6"; i++) {
     userNumbers = parseInt(prompt("Benvenuto!! Potresti fornirmi i tuoi 6 numeri dispari??"));
 
     if(userNumbers % 2 == 0) {
-        document.getElementById("even").innerHTML = "Questi non mi servono ti ho detto!!"
+        document.getElementById("even").innerHTML = `Questi ${userNumbers} non mi servono ti ho detto!!`
     } else {
         myArray.push(`${userNumbers}`)
     }

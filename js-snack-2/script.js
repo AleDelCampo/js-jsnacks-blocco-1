@@ -1,7 +1,23 @@
-for (let i = 0; i < "10"; i++) {
-    let userNumbers;
+const first = Number(prompt("Salve!! Inserisci pure le tue 10 cifre."));
 
-    userNumbers = prompt("Benvenuto!! Potresti fornirmi i tuoi 10 numeri??");
+const second = Number(prompt("Salve!! Inserisci pure le tue 10 cifre."));
 
-    document.getElementById("numbers").innerHTML = `${userNumbers + userNumbers - userNumbers}`;
-}
+const third = Number(prompt("Salve!! Inserisci pure le tue 10 cifre."));
+
+const fourth = Number(prompt("Salve!! Inserisci pure le tue 10 cifre."));
+
+const fifth = Number(prompt("Salve!! Inserisci pure le tue 10 cifre."));
+
+const sixth = Number(prompt("Salve!! Inserisci pure le tue 10 cifre."));
+
+const seventh = Number(prompt("Salve!! Inserisci pure le tue 10 cifre."));
+
+const eighth = Number(prompt("Salve!! Inserisci pure le tue 10 cifre."));
+
+const ninth = Number(prompt("Salve!! Inserisci pure le tue 10 cifre."));
+
+const tenth = Number(prompt("Salve!! Inserisci pure le tue 10 cifre."));
+
+const sum = first + second + third + fourth + fifth + sixth + seventh + eighth + ninth + tenth;
+
+document.querySelector("#numbers").innerHTML = `${sum}`;
