@@ -15,14 +15,11 @@ let sum = 0;
 for (let i = 0; i < numbers.length; i++) {
     if (`${userNumber}`<= 10) {
         sum += Math.pow(numbers[i], 3);
-        document.getElementById("sum").innerHTML = sum;
+        document.getElementById("sum").innerHTML = (`La somma dei primi 10 Numeri è di: ${sum}.`);
     }
 
-    document.getElementById("average").innerHTML = `${sum / 10}`;
+    document.getElementById("average").innerHTML = (`La media dei primi 10 Numeri è di: ${sum / 10}.`);
 };
-
-
-    
 
 
 

@@ -10,7 +10,7 @@ if (numbers.length !== 4) {
     let fourth = parseInt(numbers.charAt(3));
     let sum = first + second + third + fourth;
 
-  alert(`La somma delle cifre di ${numbers} è ${sum}.`);
+  document.getElementById("result").innerText = (`La somma delle cifre di ${numbers} è ${sum}.`);
 }
 
 
